@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ "$STACK" = "cedar-14" ] || [ "$STACK" = "heroku-16" ] || [ "$STACK" = "heroku-18" ]; then
+if [ "$STACK" = "cedar-14" ] || [ "$STACK" = "heroku-16" ] || [ "$STACK" = "heroku-18" ] || [ "$STACK" = "heroku-20" ]; then
   echo "wkhtmltopdf-buildpack"
   exit 0
 else
